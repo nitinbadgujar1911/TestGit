@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Valid Login",
+        "description": "",
+        "id": "login-functionality;valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9113924300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to url",
+            "match": {
+              "location": "LoginTest.user_navigate_to_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 257097000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login page will appear",
+            "match": {
+              "location": "LoginTest.login_page_will_appear()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 247513900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid login and passward",
+            "match": {
+              "location": "LoginTest.user_enters_valid_login_and_passward()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1732902400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login button",
+            "match": {
+              "location": "LoginTest.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60807600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should landed on Home Page",
+            "match": {
+              "location": "LoginTest.user_should_landed_on_Home_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 534541000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on logout button",
+            "match": {
+              "location": "LoginTest.click_on_logout_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125168200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginTest.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "Login1.feature"
+  }
+]
